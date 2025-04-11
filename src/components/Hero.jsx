@@ -50,7 +50,7 @@ const Hero = () => {
                             variants={childVariants}
                             className="bg-gradient-to-r from-stone-300
                         to-stone-600 bg-clip-text text-3xl tracking-tight
-                        text-transparent">Full Stack Developer 
+                        text-transparent">Environmental Engineer | Data-Driven Sustainability Solutions | AI/ML for Climate Impact | Bridging Precision + Purpose 
                         </motion.span>
                         <motion.p 
                             variants={childVariants}
