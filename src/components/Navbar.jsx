@@ -4,19 +4,18 @@ import logo from "../assets/Elias_logo_2.png";
 
 const Navbar = () => {
     return (
-        <nav className="flex flex-col sm:flex-row items-center justify-between py-6 px-4">
+        <nav className="flex flex-col sm:flex-row items-center justify-between py-6 px-4 sm:px-8">
             <div className="flex-shrink-0 mb-4 sm:mb-0">
                 <a href="/" aria-label="Home">
-                    <img 
-                        src={logo} 
-                        className="max-w-[300px] sm:max-w-[450px] w-full hover:scale-105 transition-transform duration-300"
+                    <img
+                        src={logo}
+                        className="w-[200px] sm:w-[300px] hover:scale-105 transition-transform duration-300"
                         alt="Elias Logo"
                     />
                 </a>
             </div>
 
-            <div className="flex items-center justify-center gap-5 text-3xl sm:text-4xl">
-                {/* LinkedIn */}
+            <div className="flex items-center justify-center gap-4 sm:gap-5 text-2xl sm:text-3xl">
                 <a
                     href="https://www.linkedin.com/in/elias-al-alam/"
                     target="_blank"
@@ -27,7 +26,6 @@ const Navbar = () => {
                     <FaLinkedin />
                 </a>
 
-                {/* GitHub */}
                 <a
                     href="https://github.com/michmazbout"
                     target="_blank"
@@ -37,8 +35,7 @@ const Navbar = () => {
                 >
                     <FaGithub />
                 </a>
-                
-                {/* Glacier Team (Mountain Emoji) */}
+
                 <a
                     href="https://wp.unil.ch/glace/team/"
                     target="_blank"
@@ -46,10 +43,9 @@ const Navbar = () => {
                     aria-label="Glacier Team Website"
                     className="hover:text-blue-500 transition-all duration-300 hover:scale-110"
                 >
-                    <span className="text-3xl sm:text-4xl">⛰️</span>
+                    <span className="text-2xl sm:text-3xl">⛰️</span>
                 </a>
-                
-                {/* Telegram */}
+
                 <a
                     href="https://t.me/Elijahmks"
                     target="_blank"
@@ -60,7 +56,6 @@ const Navbar = () => {
                     <FaTelegram />
                 </a>
 
-                {/* Discord */}
                 <a
                     href="https://discord.com/users/hikigaya_hachiman_"
                     target="_blank"
