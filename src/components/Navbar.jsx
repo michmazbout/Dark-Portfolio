@@ -4,20 +4,18 @@ import logo from "../assets/Elias_logo_2.png";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center justify-between py-6">
-            <div className="flex flex-shrink-0 items-center">
+        <nav className="flex flex-col sm:flex-row items-center justify-between py-6 px-4">
+            <div className="flex-shrink-0 mb-4 sm:mb-0">
                 <a href="/" aria-label="Home">
                     <img 
                         src={logo} 
-                        className="mx-2"
-                        width={300}
-                        height={130}
+                        className="max-w-[200px] sm:max-w-[300px] w-full"
                         alt="Elias Logo"
                     />
                 </a>
             </div>
 
-            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+            <div className="flex items-center justify-center gap-4 text-2xl">
                 {/* LinkedIn */}
                 <a
                     href="https://www.linkedin.com/in/elias-al-alam/"
@@ -46,7 +44,7 @@ const Navbar = () => {
                     rel="noopener noreferrer"
                     aria-label="Glacier Team Website"
                     className="hover:text-blue-500 transition-colors text-2xl"
-                    >
+                >
                     ⛰️
                 </a>
                 {/* Telegram */}
